@@ -1,0 +1,9 @@
+@contentType = application/json
+GET http://107.175.142.136:5009/api/search/细菌和癌症的关系  HTTP/1.1
+Content-Type: {{contentType}}
+
+###
+POST  http://107.175.142.136:5009/api/search  HTTP/1.1
+Content-Type: {{contentType}}
+
+{"query":"给我一些素食主义和营养的论文","amount":4,"threshold":0.3}
