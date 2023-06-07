@@ -2,22 +2,24 @@
 A go program which search the papers from ncbi. Currently only suport search pmc database.
 
 # Getting Start：
-https://github.com/FayeZheng0/ask_pubmed.git
+```
+git clone https://github.com/FayeZheng0/ask_pubmed.git
 
 go build
 
 ./ask_pubmed httpd 5009
+```
 
 # API：
 Provide two Get and Post method to query papers，both of them return the same data struct. 
 ## Get method to search
-GET /api/search/:query
+`GET /api/search/:query`
 
 This API will return search result. query is required. will return 3 papers by default.
 
 
 ## Post method to search
-POST  /api/search
+`POST  /api/search`
 
 This API will return search result. The payload should be a JSON object containing the following fields:
 

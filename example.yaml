@@ -1,0 +1,5 @@
+botastic:
+  app_id: app_id
+  bot_id: 1
+  app_secret: BSK-app_secret
+  endpoint: https://botastic-api.pando.im
